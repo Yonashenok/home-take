@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script defer src="/js/index.js"></script>
+
+    <title>LosAngles Mountains</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-light position-fixed w-100 nav"
+      >
+        <div class="container-fluid">
+          <a href="/" class="d-block d-md-none">
+            <img class="rounded-circle" src="./img/lam-logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse desktop-pad" id="navbarScroll">
+            <ul
+              class="navbar-nav d-none d-lg-block me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item mt-4">
+                <a
+                  class="navbar-brand gap-1 d-flex gap-2 w-100"
+                  href="#home-page"
+                >
+                  <img
+                    class="rounded-circle"
+                    src="./img/lam-logo.png"
+                    alt="logo"
+                  />
+                  <img
+                    class="logo"
+                    src="./img/lam-logo-text.png"
+                    alt="text-img"
+                  />
+                </a>
+              </li>
+            </ul>
+            <div class="w-full">
+              <ul
+                class="navbar-nav me-auto d-flex flex-row gap-5 justify-content-center align-items-center my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a
+                    class="active color-text text-uppercase fs-2 text-decoration-underline"
+                    aria-current="page"
+                    href="#history-page"
+                  >
+                    01. History
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="text-uppercase color-text fs-2 text-decoration-underline"
+                    href="#team-page"
+                  >
+                    02. team
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home-page" id="home-page"></section>
+      <section class="history-page" id="history-page">
+        <div
+          class="container d-flex flex-column justify-content-between p-3 p-lg-5 mt-4 h-100 align-items-center"
+        >
+          <div>
+            <img
+              class="history-img mt-5 p pt-lg-5 mb-lg-4"
+              src="./img/lam-big-01-title.png"
+              alt=""
+            />
+            <p class="history-text mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus odit adipisci, quidem vel culpa doloribus labore
+              deserunt nobis porro voluptate nihil aliquid suscipit ducimus
+              minus rem laborum tenetur ipsam quaerat! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Non quaerat molestiae tempore
+              repellat dicta, culpa corporis quibusdam provident quam aliquam
+              aliquid eius inventore minus molestias. Dolor cumque est alias?
+              Inventore?
+            </p>
+          </div>
+        </div>
+        <div class="carousel-bg w-100 py-5 d-flex justify-content-center">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel carousel-slide slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/lam-first-carousel-image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/lam-first-carousel-image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/lam-second-carousel-image.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden bg-info">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon bg-dark"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="team-page" id="team-page">
+        <div
+          class="d-flex team-header flex-column flex-lg-row bg-light justify-content-center align-items-start gap-4"
+        >
+          <img src="./img/lam-big-02-title.png" alt="" />
+          <p class="fs-4 p-3 team-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus odit adipisci, quidem vel culpa doloribus labore
+            deserunt nobis porro voluptate nihil aliquid suscipit ducimus minus
+            Necessitatibus odit adipisci, quidem vel culpa doloribus labore
+            deserunt nobis porro voluptate nihil aliquid suscipit ducimus minus
+            scipit ducimus minus
+          </p>
+        </div>
+        <div class="w-100 team-nav d-none d-lg-block">
+          <ul
+            class="container list-container h-full d-flex justify-content-start align-content-center gap-0"
+          >
+            <li
+              class="d-flex align-items-center py-4 px-3 list-unstyled operations__link--1 list-bg"
+            >
+              <a
+                class="text-uppercase link-color-active list-link link-color text-decoration-none fw-bold fs-1"
+                href="#"
+                data-tab="1"
+              >
+                Mountain 1
+              </a>
+            </li>
+            <li
+              class="d-flex align-items-center py-4 px-3 list-unstyled operations__link--2"
+            >
+              <a
+                class="text-uppercase text-light list-link text-decoration-none fw-bold fs-1"
+                href="#"
+                data-tab="2"
+              >
+                Mountain 2
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container p-5 mt-5 d-none d-lg-block">
+          <ul class="list-group w-25 p-3 bg-light schedule schedule-1">
+            <h3 class="fs-1 fw-bolder text-uppercase ps-3">Schedule</h3>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>17 Nov 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>13 Dec 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>28 Dec 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>9 Feb 2017</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+          </ul>
+          <ul class="list-group w-25 p-3 bg-light schedule schedule-2 d-none">
+            <h3 class="fs-1 fw-bolder text-uppercase ps-3">Schedule</h3>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>25 Nov 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>28 Nov 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>18 Dec 2016</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+            <li
+              class="list-group-item fs-4 fw-bold d-flex justify-content-between align-items-center"
+            >
+              <span>7 Jan 2017</span>
+              <span class="">Vestibule viverra</span>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="accordion d-block d-lg-none bg-danger"
+          id="accordionExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button text-uppercase fw-bold fs-1"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Mountain 1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body fs-3">
+                <img
+                  class="schedule"
+                  src="./img/lam-tab-1-schedule.png"
+                  alt="schedule"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed text-uppercase fw-bold fs-1"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Mountain 2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <img
+                  class="schedule"
+                  src="./img/lam-tab-1-schedule.png"
+                  alt="schedule"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="d-flex justify-content-between align-items-center footer">
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        <img src="./img/lam-footer-logo.png" alt="" />
+      </div>
+      <div class="text-center p-3 fs-4 fw-bold">
+        ©2016. ALL RIGHTS RESERVED.
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
