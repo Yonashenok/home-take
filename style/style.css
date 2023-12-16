@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************   */
+
+/* HEADER */
+
+/******************************   */
+
+.logo-text {
+  width: 5rem;
+
+  /* height: 10rem; */
+}
+
+.home-page {
+  background-image: url('/img/photo-los-angeles-mountains.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-header {
+  font-size: 5.8rem;
+  font-weight: 950;
+}
+
+.history-page {
+  background-image: url('/img/lam-middle-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 100vh;
+}
+
+.history-text {
+  font-size: 1.8rem;
+}
+
+.carousel-bg {
+  background-color: rgba(64, 79, 108, 0.5);
+}
+
+.carousel-slide {
+  width: 100%;
+}
+
+.history-img {
+  width: 20rem;
+}
+
+.team-page {
+  background-image: url('/img/lam-tab-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.team-header {
+  padding-top: 7rem;
+}
+
+.header {
+  z-index: 100;
+}
+
+.color-text {
+  color: #333;
+}
+
+.link-color {
+  color: #d9e0f0;
+}
+
+.link-color-active {
+  color: #404f6c !important;
+  border-bottom: 1px solid #404f6c;
+}
+
+.list-bg {
+  opacity: 0.6;
+  background-color: #fff;
+}
+
+.team-nav {
+  background-color: #404f6c;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    font-size: 9.8rem;
+  }
+
+  .desktop-pad {
+    padding: 0 25rem;
+  }
+
+  /* .color-text {
+    color: #fff;
+  } */
+
+  .history-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 2.4rem;
+    width: 100%;
+  }
+
+  .carousel-slide {
+    width: 25%;
+  }
+
+  .team-text {
+    width: 45%;
+  }
+
+  .footer {
+    padding: 0 16rem;
+  }
+}
+
+.footer {
+  background-color: #404f6c;
+  color: #737f92;
+}
