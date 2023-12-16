@@ -30,7 +30,7 @@ const headerObserver = new IntersectionObserver(navBackgroundColorHandler, {
 });
 headerObserver.observe(header);
 
-//Tapped operation with the button
+// Tapped operation with the button
 listContainer.addEventListener('click', (e) => {
   e.preventDefault();
 
@@ -38,12 +38,12 @@ listContainer.addEventListener('click', (e) => {
 
   if (!clicked) return;
 
-  //remove active class
+  // remove active class
   listEle.forEach((list) => list.classList.remove('list-bg'));
   listLink.forEach((link) => link.classList.remove('link-color-active'));
   imgContent.forEach((img) => img.classList.add('d-none'));
 
-  //add active classes
+  // add active classes
   clicked.classList.add('link-color-active');
   document
     .querySelector(`.operations__link--${clicked.dataset.tab}`)

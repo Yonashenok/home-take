@@ -11,21 +11,30 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
-/*******************************/
-/* HEADER*/
-/*******************************/
+
+/******************************   */
+
+/* HEADER */
+
+/******************************   */
 
 .logo-text {
   width: 5rem;
+
   /* height: 10rem; */
 }
 
 .home-page {
-  background-image: url('/img/lam-top-image.png');
+  background-image: url('/img/photo-los-angeles-mountains.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+
+.main-header {
+  font-size: 5.8rem;
+  font-weight: 950;
 }
 
 .history-page {
@@ -96,6 +105,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .main-header {
+    font-size: 9.8rem;
+  }
+
   .desktop-pad {
     padding: 0 25rem;
   }
@@ -117,7 +130,7 @@ body {
   }
 
   .team-text {
-    width: 50%;
+    width: 45%;
   }
 
   .footer {
