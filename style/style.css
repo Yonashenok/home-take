@@ -11,12 +11,16 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
-/*******************************/
-/* HEADER*/
-/*******************************/
+
+/******************************   */
+
+/* HEADER */
+
+/******************************   */
 
 .logo-text {
   width: 5rem;
+
   /* height: 10rem; */
 }
 
@@ -30,7 +34,7 @@ body {
 
 .main-header {
   font-size: 5.8rem;
-  font-weight: 950px;
+  font-weight: 950;
 }
 
 .history-page {
@@ -104,6 +108,7 @@ body {
   .main-header {
     font-size: 9.8rem;
   }
+
   .desktop-pad {
     padding: 0 25rem;
   }
